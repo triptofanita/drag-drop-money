@@ -8,4 +8,6 @@ footer{
     display: flex;
     justify-content: center;
     padding: .6rem;
+    z-index: 100;
+    position:fixed;
 }
