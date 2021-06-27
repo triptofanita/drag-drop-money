@@ -1,0 +1,15 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100vw;
+    height: 3em;
+    background-color: #f321d7;
+    position: absolute;
+    z-index: 100;
+}
+
+.header__img--1{
+    margin-left: 3%;
+    margin-right: 3%;
+}
