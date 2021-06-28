@@ -1,6 +1,7 @@
 .title__cashList {
   font-weight: bold;
   color: #2d3233;
+  font-family: 'Oxygen', sans-serif;
 }
 
 .cashList__main--container{
@@ -31,6 +32,7 @@ margin-left: 70%;
   text-align: center;
   margin: .5rem;
   border: 2px solid transparent;
+  font-family: 'Oxygen', sans-serif;
 }
 
 .elem__item:hover {
