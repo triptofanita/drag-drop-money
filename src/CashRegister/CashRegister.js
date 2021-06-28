@@ -1,11 +1,14 @@
 import React from 'react';
 import './cashRegister.css';
+import './DragAndDrop/dragAndDrop.css';
 import Buttons from './Buttons/Buttons';
+import DragAndDrop from './DragAndDrop/DragAndDrop';
 
 function CashRegister() {
+  
     return (
         <>
-        <section className="cashregister__main__container">
+          <section className="cashregister__main__container">
             <div className="display__container">
                 <div className="display__container--qty">$ 327.00</div>
             </div>
@@ -30,6 +33,7 @@ function CashRegister() {
                 </div>
             </div>
         </section>
+        <DragAndDrop/>
         </>
     )
 }
