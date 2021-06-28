@@ -47,12 +47,20 @@
     font-family: 'Oxygen', sans-serif;
 }
 
+.option:hover{
+    border: 3px solid #f321d7;
+}
+
 .instructions__container{
-    height: 22rem;
-    width: 16rem;
-    padding: 8%;
-    margin-top: 12%;
+    height: 27.5rem;
+    width: 18rem;
+    padding: 9%;
+    margin-top: -1.5em;
     border: 1px solid #053553;
+}
+
+.instructions__container:hover{
+    border: 1px solid #f321d7;
 }
 
 .instructions__container--title{
