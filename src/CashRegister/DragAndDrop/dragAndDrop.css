@@ -1,0 +1,39 @@
+.title__cashList {
+  font-weight: bold;
+  color: #2d3233;
+}
+
+.cashList__main--container{
+display: flex;
+flex-direction: column;
+text-align: center;
+width: 13%;
+height: 75%;
+margin-top: -29%;
+margin-left: 70%;
+}
+
+.cashList__container {
+  margin: 0;
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: 2rem;
+  flex-direction: column;
+}
+
+.elem__item {
+  list-style-type: none;
+  color: #000000;
+  box-shadow: 0px 2px 4px #4a4c4e;
+  border-radius: 5px;
+  padding: 0.3em 0.5em;
+  background-color:#acf3f3;
+  text-align: center;
+  margin: .5rem;
+  border: 2px solid transparent;
+}
+
+.elem__item:hover {
+  border: 2px solid #f321d7;
+  list-style-type: none;
+}
