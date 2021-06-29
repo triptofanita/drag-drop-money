@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer>
             <em>Desarrollado por Talía González</em>
-            <img className="header__img--1" src={process.env.PUBLIC_URL + '/assets/img/like.svg'} alt="heart"/>
+            <img className="footer__img--1" src={process.env.PUBLIC_URL + '/assets/img/like.svg'} alt="heart"/>
         </footer>
     )
 }

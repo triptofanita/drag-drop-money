@@ -125,7 +125,7 @@ li{
         width: 20rem;
         padding: 9%;
         margin-left: 2%;
-        margin-top: 35%;
+        margin-top: 22%;
     }
 
     .instructions__container--title{
@@ -149,11 +149,12 @@ li{
     }
 
     .option{
-        margin-top: 8%;
-        height: 30%;
-        width: 40%;
-        font-size: 1.2rem;
-    }
+        margin-top: 1%;
+        height: 45%;
+        width: 42%;
+        font-size: 1rem;
+        padding: .6em;
+   }
 
 }
 
