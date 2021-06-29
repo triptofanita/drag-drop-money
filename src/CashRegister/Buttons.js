@@ -1,5 +1,5 @@
 import React from 'react';
-import '../cashRegister.css';
+import './cashRegister.css';
 function Buttons() {
     return (
         <div className="buttons__container">
