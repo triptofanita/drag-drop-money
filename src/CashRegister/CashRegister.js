@@ -2,7 +2,7 @@ import React from 'react';
 import { useHistory } from 'react-router';
 import './cashRegister.css';
 import './DragAndDrop/dragAndDrop.css';
-import Buttons from './Buttons/Buttons';
+import Buttons from './Buttons';
 import DragAndDrop from './DragAndDrop/DragAndDrop';
 
 function CashRegister() {
