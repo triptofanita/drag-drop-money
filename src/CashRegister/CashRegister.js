@@ -1,11 +1,18 @@
 import React from 'react';
+import { useHistory } from 'react-router';
 import './cashRegister.css';
 import './DragAndDrop/dragAndDrop.css';
 import Buttons from './Buttons/Buttons';
 import DragAndDrop from './DragAndDrop/DragAndDrop';
 
 function CashRegister() {
+
+    const history = useHistory();
   
+    const handleReturnMenu = () => {
+        history.push('/')
+    }
+
     return (
         <>
           <section className="cashregister__main__container">
@@ -22,7 +29,7 @@ function CashRegister() {
                     </div>
                 </div>
                 <div className="key__slot"></div>
-                <button className="btn__submit"><b>Listo</b></button>
+                <button className="btn__submit" onClick={handleReturnMenu}><b>Listo</b></button>
                 <Buttons/>
             </div>
             <div className="cash__register--cash">

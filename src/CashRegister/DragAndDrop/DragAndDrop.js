@@ -63,10 +63,10 @@ const cashList = [
         }}
       >
         <div className="cashList__main--container">
-          <h2 className="title__cashList">Dinero disponible</h2>
+          <h3 className="title__cashList">Cantidad disponible</h3>
           <Droppable droppableId="dropabble__1">
             {(droppableProvided) => (
-              <ul
+              <div
                 {...droppableProvided.droppableProps}
                 ref={droppableProvided.innerRef}
                 className="cashList__container"
@@ -74,7 +74,7 @@ const cashList = [
                 {cashList.map((elem, index) => (
                   <Draggable key={elem.id} draggableId={elem.id} index={index}>
                     {(draggableProvided) => (
-                      <li
+                      <div
                         {...draggableProvided.draggableProps}
                         ref={draggableProvided.innerRef}
                         {...draggableProvided.dragHandleProps}
@@ -82,12 +82,12 @@ const cashList = [
                       >
                         {elem.text}
                         {/* <button>delete</button> */}
-                      </li>
+                      </div>
                     )}
                   </Draggable>
                 ))}
                 {droppableProvided.placeholder}
-              </ul>
+              </div>
             )}
           </Droppable>
         </div>
