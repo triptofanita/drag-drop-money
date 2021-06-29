@@ -1,11 +1,21 @@
 import React from 'react';
+import { useHistory } from 'react-router';
 import './cashRegister.css';
-import Buttons from './Buttons/Buttons';
+import './DragAndDrop/dragAndDrop.css';
+import Buttons from './Buttons';
+import DragAndDrop from './DragAndDrop/DragAndDrop';
 
 function CashRegister() {
+
+    const history = useHistory();
+  
+    const handleReturnMenu = () => {
+        history.push('/')
+    }
+
     return (
-        <>
-        <section className="cashregister__main__container">
+        <div className="first__level__container">
+          <div className="cashregister__main__container">
             <div className="display__container">
                 <div className="display__container--qty">$ 327.00</div>
             </div>
@@ -19,7 +29,7 @@ function CashRegister() {
                     </div>
                 </div>
                 <div className="key__slot"></div>
-                <button className="btn__submit"><b>Listo</b></button>
+                <button className="btn__submit" onClick={handleReturnMenu}><b>Listo</b></button>
                 <Buttons/>
             </div>
             <div className="cash__register--cash">
@@ -29,8 +39,9 @@ function CashRegister() {
                     </div>
                 </div>
             </div>
-        </section>
-        </>
+        </div>
+        <DragAndDrop/>
+        </div>
     )
 }
 
