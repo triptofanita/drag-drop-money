@@ -19,7 +19,7 @@ Este juego está desarrollado en React Js, CSS y HTML 5.
 Agregar la funcionalidad drop.
 Desarrollar los niveles 2-4. 
 
-[Preview de la aplicación]()
+[Preview de la aplicación](https://frosty-lichterman-92721f.netlify.app/)
 
 
 
