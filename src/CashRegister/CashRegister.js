@@ -14,8 +14,8 @@ function CashRegister() {
     }
 
     return (
-        <>
-          <section className="cashregister__main__container">
+        <div className="first__level__container">
+          <div className="cashregister__main__container">
             <div className="display__container">
                 <div className="display__container--qty">$ 327.00</div>
             </div>
@@ -39,9 +39,9 @@ function CashRegister() {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
         <DragAndDrop/>
-        </>
+        </div>
     )
 }
 
