@@ -6,7 +6,7 @@ header{
     height: 3em;
     background-color: #f321d7;
     position: absolute;
-    z-index: 100;
+    z-index: 990;
 }
 
 .header__img--1{
