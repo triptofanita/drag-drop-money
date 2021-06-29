@@ -5,14 +5,13 @@
 }
 
 .cashList__main--container{
-display: flex;
-flex-direction: column;
-text-align: center;
-width: 13%;
-height: 75%;
-margin-top: -27%;
-margin-left: 68%;
-position: static;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 13%;
+  height: 75%;
+  margin-top: 10%;
+  position: static;
 }
 
 .cashList__container {
@@ -41,8 +40,8 @@ position: static;
 
 @media screen and (max-width: 768px){
   .cashList__main--container{
-    margin-top: -51%;
-    margin-left: 73%;
+    margin-top: 14%;
+    margin-left: 0%;
     position: static;
   }
 
@@ -69,8 +68,8 @@ position: static;
   .cashList__main--container{
     display: flex;
     flex-direction: column;
-    margin-top:-110%;
-    margin-left: 7%;
+    margin-top: 25%;
+    margin-left: 5%;
   }
 
   .cashList__container {
