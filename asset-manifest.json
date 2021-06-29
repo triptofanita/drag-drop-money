@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/interactivo_retiros_depositos_TALIA_GONZALEZ/static/css/main.e9b85d88.chunk.css",
+    "main.js": "/interactivo_retiros_depositos_TALIA_GONZALEZ/static/js/main.df0cb5cc.chunk.js",
+    "main.js.map": "/interactivo_retiros_depositos_TALIA_GONZALEZ/static/js/main.df0cb5cc.chunk.js.map",
+    "runtime-main.js": "/interactivo_retiros_depositos_TALIA_GONZALEZ/static/js/runtime-main.2bbf1aca.js",
+    "runtime-main.js.map": "/interactivo_retiros_depositos_TALIA_GONZALEZ/static/js/runtime-main.2bbf1aca.js.map",
+    "static/js/2.931dc987.chunk.js": "/interactivo_retiros_depositos_TALIA_GONZALEZ/static/js/2.931dc987.chunk.js",
+    "static/js/2.931dc987.chunk.js.map": "/interactivo_retiros_depositos_TALIA_GONZALEZ/static/js/2.931dc987.chunk.js.map",
+    "static/js/3.e5c3547f.chunk.js": "/interactivo_retiros_depositos_TALIA_GONZALEZ/static/js/3.e5c3547f.chunk.js",
+    "static/js/3.e5c3547f.chunk.js.map": "/interactivo_retiros_depositos_TALIA_GONZALEZ/static/js/3.e5c3547f.chunk.js.map",
+    "index.html": "/interactivo_retiros_depositos_TALIA_GONZALEZ/index.html",
+    "static/css/main.e9b85d88.chunk.css.map": "/interactivo_retiros_depositos_TALIA_GONZALEZ/static/css/main.e9b85d88.chunk.css.map",
+    "static/js/2.931dc987.chunk.js.LICENSE.txt": "/interactivo_retiros_depositos_TALIA_GONZALEZ/static/js/2.931dc987.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2bbf1aca.js",
+    "static/js/2.931dc987.chunk.js",
+    "static/css/main.e9b85d88.chunk.css",
+    "static/js/main.df0cb5cc.chunk.js"
+  ]
+}
